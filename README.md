@@ -1,6 +1,6 @@
 # Loteria-primitiva
-Programación java para practicar estructuras de datos
-Enunciado
+> ## Programación java para practicar estructuras de datos
+### Enunciado
 
 En esta práctica vamos a realizar una versión especial del famoso juego de azar de la lotería primitiva.
 
@@ -32,7 +32,7 @@ A continuación se muestran algunos ejemplos de la ejecución de la aplicación 
 
 Ejemplo 1: Caso de un boleto jugado con una única apuesta: {4,8,12,23,34,44} para tres sorteos.
 
-
+![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/1.png)
 
 De la anterior imagen vemos como no hemos tenido mucha suerte, puesto que en tres sorteos que hemos jugado la apuesta sólo hemos recuperado el desembolso de uno de ellos.
 
