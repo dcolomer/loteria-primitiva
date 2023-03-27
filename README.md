@@ -35,7 +35,7 @@ A continuación se muestran algunos ejemplos de la ejecución de la aplicación:
 
 ![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/1.png)
 
-De la anterior imagen vemos como no hemos tenido mucha suerte, puesto que en tres sorteos que hemos jugado la apuesta sólo hemos recuperado el desembolso de uno de ellos.
+En la siguiente imagen vemos que no hemos tenido mucha suerte, puesto que en tres sorteos que hemos jugado la apuesta sólo hemos recuperado el desembolso de uno de ellos.
 
 Adicionalmente podríamos mostrar algunas estadísticas, por ejemplo el número de aciertos de cada categoría de premios y la frecuencia con la que aparecen los números en los sorteos. En la siguiente imagen se muestra esto:
 
@@ -45,15 +45,19 @@ Adicionalmente podríamos mostrar algunas estadísticas, por ejemplo el número 
 
 ![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/3.png)
 
-De la imagen anterior apreciamos como hemos obtenido un reintegro en el segundo sorteo y tres aciertos en el tercero.
+En la imagen siguiente se observa que hemos obtenido un reintegro en el segundo sorteo y tres aciertos en el tercero.
 
 #### Ejemplo 3: Caso en el que jugamos dos apuestas en mil sorteos.
 
 En este caso, como obtendremos bastantes premios de reintegro y de tres aciertos haremos que sólo se nos informe por pantalla de los premios a partir de cuatro aciertos. La información a mostrar será:
-    • La apuesta que tiene cuatro o más aciertos
-    • El sorteo donde se han producido los aciertos
+- La apuesta que tiene cuatro o más aciertos
+- El sorteo donde se han producido los aciertos
 
 ![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/4.png)
+
+![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/5.png)
+
+![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/6.png)
 
 Bien, en este caso tenemos que de los mil sorteos en treinta ocasiones hemos acertado tres números y en una cuatro números.
 
@@ -61,7 +65,7 @@ Bien, en este caso tenemos que de los mil sorteos en treinta ocasiones hemos ace
 
 Nota: Sólo mostraremos aciertos a partir de cinco aciertos:
 
-![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/5.png) 
+![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/7.png) 
 
 De la imagen anterior vemos como sólo en dos ocasiones hemos obtenido 5 aciertos.
 
