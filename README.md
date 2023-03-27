@@ -39,33 +39,33 @@ De la anterior imagen vemos como no hemos tenido mucha suerte, puesto que en tre
 
 Adicionalmente podríamos mostrar algunas estadísticas, por ejemplo el número de aciertos de cada categoría de premios y la frecuencia con la que aparecen los números en los sorteos. En la siguiente imagen se muestra esto:
 
+![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/2.png)
 
 #### Ejemplo 2: Caso en el que jugamos dos apuestas en cinco sorteos
 
-![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/1.png)
-
+![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/3.png)
 
 De la imagen anterior apreciamos como hemos obtenido un reintegro en el segundo sorteo y tres aciertos en el tercero.
 
-Ejemplo 3: Caso en el que jugamos dos apuestas en mil sorteos.
+#### Ejemplo 3: Caso en el que jugamos dos apuestas en mil sorteos.
 
 En este caso, como obtendremos bastantes premios de reintegro y de tres aciertos haremos que sólo se nos informe por pantalla de los premios a partir de cuatro aciertos. La información a mostrar será:
-    • La apuesta que tienes los cuatro o más aciertos
-    • El sorteo en que se han producido los aciertos
+    • La apuesta que tiene cuatro o más aciertos
+    • El sorteo donde se han producido los aciertos
 
-
+![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/4.png)
 
 Bien, en este caso tenemos que de los mil sorteos en treinta ocasiones hemos acertado tres números y en una cuatro números.
 
-Ejemplo 4: Caso en el que jugamos dos apuestas en cien mil sorteos
+#### Ejemplo 4: Caso en el que jugamos dos apuestas en cien mil sorteos
 
 Nota: Sólo mostraremos aciertos a partir de cinco aciertos:
 
-
+![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/5.png) 
 
 De la imagen anterior vemos como sólo en dos ocasiones hemos obtenido 5 aciertos.
 
-Sugerencias para la implementación de la práctica
+### Sugerencias para la implementación de la práctica
 
 Podéis crear tres clases:
 
@@ -79,7 +79,7 @@ Podéis crear tres clases:
     • Juego: Clase principal donde se realiza el juego. Se crea un boleto con N apuestas y se juegan un cierto número de veces. Para esto se llaman a los servicios 'sortear()' y 'comprobarApuestas()' de la clase Sorteo. Si finalmente hay aciertos se muestran por pantalla.
 
 
-¿Cómo generar números aleatorios?
+### ¿Cómo generar números aleatorios?
 
 El paquete java.util contiene la clase Random, la cual nos permite obtener números de forma aleatoria.
 
@@ -88,21 +88,21 @@ Por ejemplo, mediante el código siguiente obtenemos un número entre 1-100 (amb
 Random rnd = new Random();
 short un_numero=(short) ((short) (rnd.nextDouble() * 100)+1);
 
-¿Cómo ordenar estructuras?
+### ¿Cómo ordenar estructuras?
 
 Para ordenar estructuras del framework Collections: Collections.sort(miLista)
 Para ordenar arrays: Arrays.sort(miArray)
 
-¿Cómo buscar elementos en estructuras?
+### ¿Cómo buscar elementos en estructuras?
 
 Buscar un elemento en una colección: Collections.binarySearch(miLista, un_numero)
 Buscar un elemento en un array: Arrays.binarySearch(miArray, un_numero)
 
-¿Cómo crear una lista a partir de un array?
+### ¿Cómo crear una lista a partir de un array?
 
 List<Integer> lista=Arrays.asList(miArray);
 
-Cómo definir y usar Mapas
+### Cómo definir y usar Mapas
 
 Los mapas nos permiten almacenar parejas claves-valor. Por ejemplo, podríamos utilizar uno para almacenar el sueldo de cada categoría profesional:
 
