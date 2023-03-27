@@ -73,15 +73,17 @@ De la imagen anterior vemos como sólo en dos ocasiones hemos obtenido 5 acierto
 
 Podéis crear tres clases:
 
-    • Apuesta: Clase que modela una apuesta. Una apuesta consiste en:
-        ◦ Unos números que forman la combinación 
-        ◦ Un numero complementario
-        ◦ Un numero de reintegro
+#### Apuesta
+Clase que modela una apuesta. Una apuesta consiste en:
+- Unos números que forman la combinación 
+- Un numero complementario
+- Un numero de reintegro
 
-    • Sorteo: Clase que realiza el sorteo y permite comprobar las jugadas de los usuarios con el resultado del sorteo. Tal resultado se almacena en un atributo de tipo Apuesta. Por tanto, esta clase dispondrá de los servicios sortear() y comprobarApuestas().
+#### Sorteo
+Clase que realiza el sorteo y permite comprobar las jugadas de los usuarios con el resultado del sorteo. Tal resultado se almacena en un atributo de tipo Apuesta. Por tanto, esta clase dispondrá de los servicios sortear() y comprobarApuestas().
 
-    • Juego: Clase principal donde se realiza el juego. Se crea un boleto con N apuestas y se juegan un cierto número de veces. Para esto se llaman a los servicios 'sortear()' y 'comprobarApuestas()' de la clase Sorteo. Si finalmente hay aciertos se muestran por pantalla.
-
+#### Juego
+Clase principal donde se realiza el juego. Se crea un boleto con N apuestas y se juegan un cierto número de veces. Para esto se llaman a los servicios 'sortear()' y 'comprobarApuestas()' de la clase Sorteo. Si finalmente hay aciertos se muestran por pantalla.
 
 ### ¿Cómo generar números aleatorios?
 
