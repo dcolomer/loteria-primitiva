@@ -1,22 +1,22 @@
-# Loteria-primitiva
+# Loteria primitiva
 > ## Programación java para practicar estructuras de datos
 ### Enunciado
 
 En esta práctica vamos a realizar una versión especial del famoso juego de azar de la lotería primitiva.
 
-¿En que consiste el juego de la lotería Primitiva? 
+#### ¿En que consiste el juego de la lotería Primitiva? 
 
 Se trata de escoger 6 números de un total de 49. En el sorteo se sacan 6 bolas correspondientes a la combinación ganadora, una bola para el complementario y finalmente otra para el reintegro.
 
-Tipos de apuestas
+#### Tipos de apuestas
 
 En el juego real existen apuestas múltiples pero nosotros sólo haremos apuestas sencillas, en las que el jugador escoge 6 números de los 49.
 
-¿Cuando se realizan los sorteos? 
+#### ¿Cuando se realizan los sorteos? 
 
-Los sorteos se realizan los jueves y sábados de cada semana. No obstante, nosotros no contemplaremos fechas y lo que haremos será jugar nuestras apuestas un número arbitrario de veces, como si tuviésemos una máquina del tiempo. Por ejemplo, si decidimos jugar 1000 veces representaría que hemos apostados 500 semanas para un boleto que juega jueves y sábado.
+Los sorteos se realizan los lunes, jueves y sábados de cada semana. No obstante, nosotros no contemplaremos fechas y lo que haremos será jugar nuestras apuestas un número arbitrario de veces, como si tuviésemos una máquina del tiempo.
 
-Premios
+#### Premios
 
 Contemplaremos los siguientes casos:
 
@@ -26,11 +26,12 @@ Contemplaremos los siguientes casos:
 4 aciertos
 3 aciertos
 Reintegro
-Ejemplo de ejecución
 
-A continuación se muestran algunos ejemplos de la ejecución de la aplicación que tendréis que realizar.
+### Ejemplo de ejecución
 
-Ejemplo 1: Caso de un boleto jugado con una única apuesta: {4,8,12,23,34,44} para tres sorteos.
+A continuación se muestran algunos ejemplos de la ejecución de la aplicación:
+
+#### Ejemplo 1: Caso de un boleto jugado con una única apuesta: {4,8,12,23,34,44} para tres sorteos.
 
 ![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/1.png)
 
@@ -39,9 +40,9 @@ De la anterior imagen vemos como no hemos tenido mucha suerte, puesto que en tre
 Adicionalmente podríamos mostrar algunas estadísticas, por ejemplo el número de aciertos de cada categoría de premios y la frecuencia con la que aparecen los números en los sorteos. En la siguiente imagen se muestra esto:
 
 
-Ejemplo 2: Caso en el que jugamos dos apuestas en cinco sorteos
+#### Ejemplo 2: Caso en el que jugamos dos apuestas en cinco sorteos
 
-
+![Inicio](https://github.com/dcolomer/Loteria-primitiva/blob/main/img-docs/1.png)
 
 
 De la imagen anterior apreciamos como hemos obtenido un reintegro en el segundo sorteo y tres aciertos en el tercero.
